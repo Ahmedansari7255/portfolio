@@ -1,0 +1,528 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.port{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+
+.port span{
+    color: rgb(181, 5, 15);
+}
+
+.home{
+    color:whitesmoke;
+}
+.bg{
+    background-image: url('img/portfolio.jpg');
+    height: 685px;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image img{
+    zoom: 110%;
+    height: 160px;
+    width: 160px;
+    border: 2px solid whitesmoke;
+    border-radius: 80px;
+    margin: 125px auto 25px auto;
+    display: block;
+    
+}
+
+.head{
+    
+    justify-content: space-between;
+    margin: 20px 10px;
+
+}
+
+.tele{
+    display: flex;
+
+    
+}
+
+.tele p{
+    margin-left: 20px;
+    margin-right: 24px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(119, 120, 115);
+}
+
+.adjust{
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.desc{
+    text-align: center;
+    color: white;
+    line-height: 1.5rem;
+    
+}
+
+.my{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+
+.ahmed{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+.web{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+}
+
+.end{
+    font-weight: 400;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    zoom: 90%;
+}
+
+.person{
+    background-image: url('img/portbg.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+
+.person span{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 2.5rem;
+}  
+
+.person p{
+    font-weight: 400;
+    margin-top: 1rem;
+    margin: auto 290px;
+    font-size: 1.4rem;
+    padding-top: 24px;
+    color: rgb(228, 238, 255);
+}
+
+.skillc{
+    background-image: url('img/bgf2.jpg');
+    height: 400px;
+    width: 100vw;
+   
+}
+
+.skill{
+    position: relative;
+    top: 2rem;
+   width: 600px;
+   height: 300px;
+   display: block;
+   margin: 0 auto;
+   padding: 20px;
+   box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0px 10px 10px rgba(0,0,0,0.20);
+}
+   
+
+.skill p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.skill li{
+    margin: 20px 0px;
+    padding: 10px;
+    color: rgb(151, 151, 151);
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 0.75rem;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-top: 0.25rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);
+    
+}
+
+.bar:hover{
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0px 10px 10px rgba(0,0,0,0.20);
+}
+
+.bar span{
+    height: 0.75rem;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0% ,rgba(252,103,103,1)100%); 
+}
+
+.html{
+    width: 85%;
+}
+
+
+.css{
+    width: 75%;
+
+}
+
+.Javascript{
+    width: 45%;
+}
+
+/*services*/
+
+.webs{
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background-size: cover;
+    height: 400px;
+    width: 100vw;
+
+}
+
+.websc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service{
+    height:275px;
+    width:450px;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0px 10px 10px rgba(0,0,0,0.20);
+}
+
+.st{
+    font-weight: 700;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.service p{
+   text-align: center;
+   margin: 0.5rem 0 1.5rem 0;
+   font-weight: 500;
+   font-size: 1.4rem;
+   color: rgb(181, 5, 15);
+}
+
+.service img{
+    zoom: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.service article{
+    color: rgb(151, 151, 151);
+    margin: auto 24px;
+    text-align: center;
+}
+
+.worki{
+    height: 150px;
+    width: 160px;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0px 10px 10px rgba(0,0,0,0.20);
+}
+
+.worki img{
+    zoom: 60%;
+    display: block;
+    margin: 0 auto;
+    padding: 3rem 0 1rem 0;
+}
+
+.worki p{
+    font-size: 1.1rem;
+    color: rgb(151, 151, 151);
+}
+
+.worp{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.work{
+    height: 250px;
+    width: 100vw;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+.workc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.foot{
+    height: 225px;
+    width: 100vw;
+    background: rgb(38, 38, 38);
+}
+
+
+.footp{
+    font-weight: 700;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.footdet{
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.footsoc{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2.5rem 25rem;
+    
+}
+
+.footsoc img{
+    height: 40px;
+    width: 40px;
+    
+}
+
+.footdet span{
+    color: rgb(151, 151, 151); 
+}
+
+
+.footdet p{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.under2{
+    display: none;
+}
+
+@media  screen and (min-width:340px) and (max-width:450px) {
+.bg{
+    height: 605px;
+    }
+.adjust{
+    display: block;
+    text-align: center;
+}
+
+.adjust p{
+    margin-bottom: 0.5rem;
+}
+.tele{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.image img{
+    zoom: 90%;
+    margin: 4rem auto 1.5rem auto;
+    
+}
+
+
+.my{
+    font-size: 1.5rem; 
+}
+
+
+.ahmed{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+
+.web{
+    font-size: 1.8rem;
+   line-height: 2rem;
+}
+
+.under{
+    display: none;
+    
+}
+
+.under2{
+    display: block;
+    
+}
+
+
+.person{
+    padding-top: 1rem;
+}
+
+
+.person span{
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.5rem;
+}  
+
+
+.person p{
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin: auto 1.5rem;
+    font-size: 1rem;
+    padding-top: 24px;
+    color: rgb(228, 238, 255);
+}
+
+
+.person{
+   
+    height: 350px;
+    padding-top: 1.5rem;
+}
+
+
+.skill{
+    position: relative;
+    top: 0.5rem;
+   width: 84vw;
+   height: 300px;
+}
+
+
+.skill p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+
+.skillc{
+    height: 330px;
+    width: 100vw;
+   
+}
+
+
+.bar{
+    height: 0.5rem;
+}
+
+
+.bar span{
+    height: 0.5rem;
+} 
+
+
+.webs{
+    height: 622px;
+    width: 100vw;
+
+}
+
+.web{
+    font-size: 1.7rem;
+}
+.st{
+   
+    font-size: 1.5rem;
+    padding: 1rem 0 1.5rem 0;
+}
+
+
+.service p{
+  
+    font-size: 1.2rem;
+   
+ }
+
+ 
+.service{
+    height:275px;
+    width:360px;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0px 10px 10px rgba(0,0,0,0.20);
+}
+
+
+.worp{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1rem 0 1.5rem 0;
+}
+
+
+.worki{
+    height: 125px;
+    width: 135px;
+}
+
+.worki img{
+    zoom: 45%;
+    display: block;
+    margin: 0 auto;
+    padding: 3rem 0 1rem 0;
+}
+
+.work{
+    height: 340px;
+    width: 100vw;
+}
+
+
+.footp{
+   
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem 0 1.5rem 0;
+}
+
+
+.footsoc{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem 3rem;
+    
+}
+}
